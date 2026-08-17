@@ -1,4 +1,4 @@
-import heroImg from "../assets/site-builder.svg";
+import heroImg from "../assets/programming.svg";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
