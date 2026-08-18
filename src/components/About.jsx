@@ -4,8 +4,17 @@ import SectionTitle from "./SectionTitle";
 const About = () => {
   return (
     <section className="bg-white py-20" id="about">
-      <div className="align-element grid md:grid-cols2 items-center gap-16">
+      <div className="align-element grid md:grid-cols-2 items-center gap-16">
         <img src={aboutSvg} className="w-full h-64" />
+        <article>
+          <SectionTitle text="code and coffee" />
+          <p className="text-slate-600 mt-8 leading-loose">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
+            nemo, adipisci error illum ipsa autem ab qui accusantium excepturi
+            impedit quia vitae eaque cupiditate vel rem officia voluptates
+            numquam pariatur.
+          </p>
+        </article>
       </div>
     </section>
   );
